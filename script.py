@@ -51,7 +51,7 @@ while True:
             if result.ok:
                 response_json = result.json()
                 
-                print(response_json)
+                #print(response_json)
 
                 flag = False
                 if response_json["centers"]:            
